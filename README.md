@@ -2,7 +2,7 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The HDI (human development index) dataset was downloaded from https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset. The focus of this project will show the change of HDI values per country over a time period from 1990 to 2021. The data also includes the HDI for males and females per country over the same time period. See HDI_clean.csv for the actual data.
 
 ## Prototypes
 
