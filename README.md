@@ -45,11 +45,11 @@ HDI is composed of health, education, and standard of living. It might be diffic
 ## Milestones
 
 Over roughly the next 8 weeks:
-Week 1: See if I need to create a pivot table, rough visualization with chosen attributes of HDI, HDI male, HDI female
-Week 2: Visualize HDI
-Week 3: Visualizae HDI male/HDI female
-Week 4: Overlay prior 2 weeks visualizations
-Week 5: Toggleable filter to turn on/off HDI male/HDI female
-Week 6: Mouse hover highlighting
-Week 7: Filtering by group
-Week 8: Explanations for drastic dips/gains in HDI
+ 1. See if I need to create a pivot table, rough visualization with chosen attributes of HDI, HDI male, HDI female
+ 2. Visualize HDI
+ 3. Visualizae HDI male/HDI female
+ 4. Overlay prior 2 weeks visualizations
+ 5. Toggleable filter to turn on/off HDI male/HDI female
+ 6. Mouse hover highlighting
+ 7. Filtering by group
+ 8. Explanations for drastic dips/gains in HDI
