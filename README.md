@@ -2,13 +2,14 @@
 
 ## Data
 
-The HDI (human development index) dataset was downloaded from https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset. The focus of this project will show the change of HDI values per country over a time period from 1990 to 2021. The data also includes the HDI for males and females per country over the same time period. See HDI_clean.csv for the actual data.
+The HDI (human development index) dataset was downloaded from https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset. This data gives HDI values for each country, GII (gender inequality index), mean life expectancy info, income info, education, and other attributes for every country over time. The focus of this project will show the change of HDI values per country over a time period from 1990 to 2021. The data also includes the HDI for males and females per country over the same time period. See HDI_clean.csv for the actual data.
 
 ## Prototypes
 
 I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/hdi_sketch_v2.jpeg)]
+(https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
 
 (please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
 
