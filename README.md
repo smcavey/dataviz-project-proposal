@@ -28,6 +28,7 @@ The following questions will drive the visualization and interaction decisions f
  * Have the gaps between the two shrunk over time as we might expect?
  * How might we best identify the case where HDI decreases over time?
  * How might we best identify the case where the gap between the HDI of male and females has grown?
+ * How do I present HDI, HDI for males, and HDI for females for ~180 countries in a single visualization without the entire screen being lines?
 
 ## Tasks
 
@@ -39,8 +40,16 @@ The following tasks will partially drive answering the above questions and devel
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+HDI is composed of health, education, and standard of living. It might be difficult to accurately describe changes in HDI as it has a lot of factors. In certain cases it may be easy to answer: we assume HDI would have gone down after the Taliban has taken over the government in Afghanistan, but is it misleading to so simply explain that as the source of change? Is it better to filter HDI on continent/region or by the human development group in the attribute so as to better identify changes per country that are anomalous from the other countries in the same development group or region? 
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+Over roughly the next 8 weeks:
+Week 1: See if I need to create a pivot table, rough visualization with chosen attributes of HDI, HDI male, HDI female
+Week 2: Visualize HDI
+Week 3: Visualizae HDI male/HDI female
+Week 4: Overlay prior 2 weeks visualizations
+Week 5: Toggleable filter to turn on/off HDI male/HDI female
+Week 6: Mouse hover highlighting
+Week 7: Filtering by group
+Week 8: Explanations for drastic dips/gains in HDI
