@@ -4,37 +4,38 @@
 
 The HDI (human development index) dataset was downloaded from https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset. This data gives HDI values for each country, GII (gender inequality index), mean life expectancy info, income info, education, and other attributes for every country over time. The focus of this project will show the change of HDI values per country over a time period from 1990 to 2021. The data also includes the HDI for males and females per country over the same time period. See HDI_clean.csv for the actual data.
 
-## Prototypes
+## Prototypes & Sketches
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
-
+I’ve created a proof of concept visualization of this data:
 [![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/hdi_sketch_v2.jpeg)]
-(https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+This shows a rough idea of how all HDI values will be visualized over time. Given there are ~180 countries there will need to be some interactivity to be able to filter out some countries or make specific data points more bold than others. These methods include hovering a mouse over a line to make it more bold, or make the other lines more opaque. Another option may be toggling regions or continents to filter down the visual clutter.
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+The very first version of experimenting with the dataset yielded:
+[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/mean_life_expectancy_syria.jpg)]
+This just shows points over a series of time, future prototypes of time series data would involve a line plot. However, this dataset shows an interesting dip. Such a dip would be nice to have context that explains the anomaly.
 
-You can make images into links like this:
+The next version of experimenting with the dataset yeilded:
+[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/life_expec_vs_gni_all.jpg)]
+This demonstrates potentially how cluttered this visualization could get as this is ~180 datapoints, however I invision using ~180 lines across the entire dataset will be even more cluttered.
 
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
+## Questions
 
+The following questions will drive the visualization and interaction decisions for this project:
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+ * How much has HDI changed over time?
+ * Presumably certain countries have been had more drastic changes in HDI over time, these are the real areas of interest, but which countries?
+ * How close/far off the countries HDI is comparatively for males and females?
+ * Have the gaps between the two shrunk over time as we might expect?
+ * How might we best identify the case where HDI decreases over time?
+ * How might we best identify the case where the gap between the HDI of male and females has grown?
 
-## Questions & Tasks
+## Tasks
 
-The following tasks and questions will drive the visualization and interaction decisions for this project:
+The following tasks will partially drive answering the above questions and developing a visualization:
 
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
-
-## Sketches
-
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+ * Create a pivot table of the attributes per year to have time series data
+ * Try to find answers for the anomalies in the data (where there are rapid dips/gains in data)
+ * Research appropriate groupings/filters to cut down on visual clutter
 
 ## Open Questions
 
