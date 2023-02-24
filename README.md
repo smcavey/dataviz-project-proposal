@@ -7,7 +7,7 @@ The HDI (human development index) dataset was downloaded from https://www.kaggle
 ## Prototypes & Sketches
 
 I’ve created a proof of concept visualization of this data:
-[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/hdi_sketch_v2.jpeg)
+[!image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/hdi_sketch_v2.jpeg)
 This shows a rough idea of how all HDI values will be visualized over time. Given there are ~180 countries there will need to be some interactivity to be able to filter out some countries or make specific data points more bold than others. These methods include hovering a mouse over a line to make it more bold, or make the other lines more opaque. Another option may be toggling regions or continents to filter down the visual clutter.
 
 The very first version of experimenting with the dataset yielded:
