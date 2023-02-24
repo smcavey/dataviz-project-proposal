@@ -11,11 +11,11 @@ I’ve created a proof of concept visualization of this data:
 This shows a rough idea of how all HDI values will be visualized over time. Given there are ~180 countries there will need to be some interactivity to be able to filter out some countries or make specific data points more bold than others. These methods include hovering a mouse over a line to make it more bold, or make the other lines more opaque. Another option may be toggling regions or continents to filter down the visual clutter.
 
 The very first version of experimenting with the dataset yielded:
-[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/mean_life_expectancy_syria.jpg)
+![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/mean_life_expectancy_syria.jpg)
 This just shows points over a series of time, future prototypes of time series data would involve a line plot. However, this dataset shows an interesting dip. Such a dip would be nice to have context that explains the anomaly.
 
 The next version of experimenting with the dataset yeilded:
-[![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/life_expec_vs_gni_all.jpg)
+![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/life_expec_vs_gni_all.jpg)
 This demonstrates potentially how cluttered this visualization could get as this is ~180 datapoints, however I invision using ~180 lines across the entire dataset will be even more cluttered.
 
 ## Questions
