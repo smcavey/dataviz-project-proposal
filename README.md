@@ -21,8 +21,20 @@ This demonstrates potentially how cluttered this visualization could get as this
 Using the UNDP_Developing_Regions attribute from the dataset to create a color legend and color each point, we were able to make out some distinct groups of the data:
 ![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/scatter-color.jpg)
 
-## Possible Explanation for Trend Changes
-* Syria has a significant drop 2011 - [Syrian Civil War](https://en.wikipedia.org/wiki/Syrian_civil_war)
+## Possible Explanation for Trend Changes (speculation based on perceived significant events)
+* Syria drop in 2011 - [Syrian Civil War](https://en.wikipedia.org/wiki/Syrian_civil_war)
+* Haiti drop in 2010 - [Earthquake with an est. 300k death toll](https://www.britannica.com/event/2010-Haiti-earthquake)
+* Libya drop in 2011 - [Libyan Revolt of 2011](https://www.britannica.com/event/Libya-Revolt-of-2011)
+* Malawi jump in 1995 - [New President Bakili Muluzi and Constitution](http://pcwcr.princeton.edu/reports/malawi1995.html)
+* Tajikistan drop in 1991 - [Tajikistani Civil War 1991-1997](https://en.wikipedia.org/wiki/Tajikistani_Civil_War)
+* Burunda drop in 1993 - [Tutsis Ethnic Cleansing](https://en.wikipedia.org/wiki/1993_ethnic_violence_in_Burundi)
+* Kuwait jump in 1994 - [Post Gulf War](https://en.wikipedia.org/wiki/Iraqi_invasion_of_Kuwait)
+* Sudan drop in 2012 - [Ethnic Violence](https://en.wikipedia.org/wiki/2012_in_South_Sudan)
+* Central African Reupblic drop in 2013 - [Rebels Take Power of Gov](https://www.worldvision.ca/stories/disaster-relief/central-african-republic-conflict-fast-facts#:~:text=Violence%20erupted%20in%20the%20Central,Bozize%20and%20forcibly%20seized%20power.)
+* Yemen drop in 2015 - [Yemeni Civil War](https://en.wikipedia.org/wiki/Yemeni_civil_war_(2014%E2%80%93present)
+* Russia drop in 1991 - [Gorbachev Resigns and Fall of USSR](https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union)
+* Sri Lanka drop 2004 - [~30k Deaths from Earthquake](https://en.wikipedia.org/wiki/Effect_of_the_2004_Indian_Ocean_earthquake_on_Sri_Lanka)
+* Zimbabwe jump in 2009 - [Adopts Foreign Currency Ending Hyperinflation](https://en.wikipedia.org/wiki/Hyperinflation_in_Zimbabwe#:~:text=In%202009%2C%20the%20government%20abandoned,foreign%20currencies%2C%20mostly%20US%20dollars.)
 
 ## Questions
 
