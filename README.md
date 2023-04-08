@@ -19,7 +19,7 @@ The next version of experimenting with the dataset yeilded:
 This demonstrates potentially how cluttered this visualization could get as this is ~180 datapoints, however I invision using ~180 lines across the entire dataset will be even more cluttered.
 
 Using the UNDP_Developing_Regions attribute from the dataset to create a color legend and color each point, we were able to make out some distinct groups of the data:
-
+![image](https://github.com/smcavey/dataviz-project-proposal/blob/master/samples/scatter-color.jpg)
 
 ## Questions
 
