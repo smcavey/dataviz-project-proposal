@@ -52,6 +52,9 @@ The following questions will drive the visualization and interaction decisions f
 
 HDI is composed of health, education, and standard of living. It might be difficult to accurately describe changes in HDI as it has a lot of factors. In certain cases it may be easy to answer: we assume HDI would have gone down after the Taliban has taken over the government in Afghanistan, but is it misleading to so simply explain that as the source of change? Is it better to filter HDI on continent/region or by the human development group in the attribute so as to better identify changes per country that are anomalous from the other countries in the same development group or region? 
 
+## Current State
+[HDI 1990-2021](https://vizhub.com/smcavey/14f605b98bb9446d904c9fb303f5cd57?edit=files&mode=full)
+
 ## TODO
  * Change drop down menu to checkboxes so all values can be visible at one time
  * When multiple datasets are toggled, highlighting one country highlights the same country in other datasets
