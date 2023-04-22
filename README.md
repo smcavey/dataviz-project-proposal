@@ -48,26 +48,11 @@ The following questions will drive the visualization and interaction decisions f
  * How might we best identify the case where the gap between the HDI of male and females has grown?
  * How do I present HDI, HDI for males, and HDI for females for ~180 countries in a single visualization without the entire screen being lines?
 
-## Tasks
-
-The following tasks will partially drive answering the above questions and developing a visualization:
-
- * Create a pivot table of the attributes per year to have time series data
- * Try to find answers for the anomalies in the data (where there are rapid dips/gains in data)
- * Research appropriate groupings/filters to cut down on visual clutter
-
 ## Open Questions
 
 HDI is composed of health, education, and standard of living. It might be difficult to accurately describe changes in HDI as it has a lot of factors. In certain cases it may be easy to answer: we assume HDI would have gone down after the Taliban has taken over the government in Afghanistan, but is it misleading to so simply explain that as the source of change? Is it better to filter HDI on continent/region or by the human development group in the attribute so as to better identify changes per country that are anomalous from the other countries in the same development group or region? 
 
-## Milestones
-
-Over roughly the next 8 weeks:
- 1. See if I need to create a pivot table, rough visualization with chosen attributes of HDI, HDI male, HDI female
- 2. Visualize HDI
- 3. Visualizae HDI male/HDI female
- 4. Overlay prior 2 weeks visualizations
- 5. Toggleable filter to turn on/off HDI male/HDI female
- 6. Mouse hover highlighting
- 7. Filtering by group
- 8. Explanations for drastic dips/gains in HDI
+## TODO
+ * Change drop down menu to checkboxes so all values can be visible at one time
+ * When multiple datasets are toggled, highlighting one country highlights the same country in other datasets
+ * Gather more values to attempt to explain drastic changes in HDI
