@@ -1,5 +1,9 @@
 # Data Visualization Project
 
+## Video Report
+
+[Link to recording](https://youtu.be/mEif9FvP_XQ)
+
 ## Data
 
 The HDI (human development index) dataset was downloaded from https://www.kaggle.com/datasets/iamsouravbanerjee/human-development-index-dataset. This data gives HDI values for each country, GII (gender inequality index), mean life expectancy info, income info, education, and other attributes for every country over time. The focus of this project will show the change of HDI values per country over a time period from 1990 to 2021. The data also includes the HDI for males and females per country over the same time period. See HDI_clean.csv for the actual data.
